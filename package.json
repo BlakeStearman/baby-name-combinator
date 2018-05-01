@@ -1,0 +1,14 @@
+{
+  "name": "baby-name-combinator",
+  "version": "1.0.0",
+  "description": "Simple Nodejs script that generates baby name combinations from given file input.",
+  "main": "bnc.js",
+  "scripts": {
+    "generate": "node bnc.js -- ./first_names.txt ./middle_names.txt ./names.txt"
+  },
+  "author": "Blake Stearman",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "node": "^10.0.0"
+  }
+}
